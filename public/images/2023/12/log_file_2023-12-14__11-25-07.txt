@@ -1,0 +1,119 @@
+
+---Downloaded files---
+The import files for: Bookworm were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://irongorillas.alroholdings.com
+Data file = /home/alrohold/domains/irongorillas.alroholdings.com/public_html/wp-content/themes/bookworm/assets/dummy-data/dummy-data.xml
+Widget file = /home/alrohold/domains/irongorillas.alroholdings.com/public_html/wp-content/themes/bookworm/assets/dummy-data/widgets.wie
+Customizer file = /home/alrohold/domains/irongorillas.alroholdings.com/public_html/wp-content/themes/bookworm/assets/dummy-data/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+---ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Footer v8 Column 4 : 
+
+Custom HTML - No Title - Imported
+WPForms - No Title - Imported
+
+Footer v8 Column 3 : 
+
+Custom HTML - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Footer v8 Column 2 : 
+
+Custom HTML - No Title - Imported
+
+Footer v8 Column 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer v4 Column 4 : 
+
+Custom HTML - No Title - Imported
+WPForms - No Title - Imported
+Custom HTML - No Title - Imported
+
+Footer v13 Column 4 : 
+
+Custom HTML - No Title - Imported
+WPForms - No Title - Imported
+
+Footer v13 Column 3 : 
+
+Custom HTML - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Footer v13 Column 2 : 
+
+Custom HTML - No Title - Imported
+
+Footer v13 Column 1 : 
+
+Custom HTML - No Title - Imported
+
+Footer Contact Widget 12 : 
+
+Custom HTML - No Title - Imported
+
+Footer Contact Widget : 
+
+Custom HTML - No Title - Imported
+Navigation Menu - No Title - Imported
+
+Shop Sidebar : 
+
+Product Categories - Categories - Imported
+Filter Products by Attribute - Author - Imported
+Filter Products by Attribute - Format - Imported
+Filter Products by Price - Filter by price - Imported
+Filter Products by Rating - By Review - Imported
+Products list - Featured Books - Imported
+
+Single Sidebar : 
+
+Products list - No Title - Imported
+Bookworm Features Block - No Title - Imported
+
+Blog Sidebar : 
+
+Search - Search - Imported
+Categories - Categories - Imported
+(Bookworm) Recent Posts - Recent Post - Imported
+Tag Cloud - Tags - Imported
+
+Footer Column 1 : 
+
+Navigation Menu - Explore - Imported
+
+Footer Column 2 : 
+
+Navigation Menu - Customer Service - Imported
+
+Footer Column 3 : 
+
+Navigation Menu - Policy - Imported
+
+Footer Column 4 : 
+
+Navigation Menu - Categories - Imported
+
+Footer Column 5 : 
+
+WPForms - Join Our Newsletter - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
