@@ -7,7 +7,6 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   site: "https://example.com",
 
-  // ⚠️ IMPORTANT: avoid unnecessary SSR memory usage
   output: "static",
 
   integrations: [
@@ -15,14 +14,14 @@ export default defineConfig({
     sitemap(),
   ],
 
-  // 🔥 Reduce build memory pressure
   build: {
     sourcemap: false,
   },
 
-  // 🖼️ Cloudflare-safe image handling
   image: {
-    service: "compile",
+    service: {
+      entrypoint: "@astrojs/image/services/compile",
+    },
   },
 
   adapter: cloudflare({
