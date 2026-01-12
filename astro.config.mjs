@@ -16,12 +16,6 @@ export default defineConfig({
     sourcemap: false, // VERY important for memory
   },
 
-  image: {
-    service: {
-      entrypoint: "@astrojs/image/services/compile",
-    },
-  },
-
   adapter: cloudflare({
     platformProxy: {
       enabled: true,
