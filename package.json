@@ -24,13 +24,10 @@
 	},
 	"private": true,
 	"scripts": {
-  "build": "NODE_OPTIONS=--max-old-space-size=8192 astro build",
-  "astro": "astro",
-  "cf-typegen": "wrangler types",
-  "check": "NODE_OPTIONS=--max-old-space-size=8192 astro build && tsc && wrangler deploy --dry-run",
-  "deploy": "wrangler deploy",
   "dev": "astro dev",
-  "preview": "NODE_OPTIONS=--max-old-space-size=8192 astro build && wrangler dev"
+  "build": "astro build",
+  "preview": "astro preview",
+  "astro": "astro"
 },
 	"type": "module"
 }
