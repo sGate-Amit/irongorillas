@@ -13,7 +13,7 @@ export default defineConfig({
   ],
 
   build: {
-    sourcemap: false, // VERY important for memory
+    sourcemap: false,
   },
 
   adapter: cloudflare({
