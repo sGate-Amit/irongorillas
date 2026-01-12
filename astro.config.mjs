@@ -16,5 +16,7 @@ export default defineConfig({
     sourcemap: false,
   },
 
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    mode: "pages"
+  }),
 });
