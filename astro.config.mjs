@@ -16,9 +16,5 @@ export default defineConfig({
     sourcemap: false,
   },
 
-  adapter: cloudflare({
-    platformProxy: {
-      enabled: true,
-    },
-  }),
+  adapter: cloudflare(),
 });
