@@ -7,6 +7,9 @@ import cloudflare from "@astrojs/cloudflare";
 export default defineConfig({
   site: "https://example.com",
 
+  // 🔴 CRITICAL FIX: force static output
+  output: "static",
+
   integrations: [
     mdx(),
     sitemap(),
@@ -17,6 +20,6 @@ export default defineConfig({
   },
 
   adapter: cloudflare({
-    mode: "pages"
+    mode: "pages",
   }),
 });
