@@ -7,8 +7,14 @@ export default defineConfig({
   site: "https://example.com",
   output: "static",
 
+  image: {
+    service: {
+      entrypoint: "astro/assets/services/noop",
+    },
+  },
+
   integrations: [
-    mdx(),
+    mdx({ optimize: false }),
     sitemap(),
   ],
 
