@@ -7,6 +7,11 @@ export default defineConfig({
   site: "https://example.com",
   output: "static",
 
+  // ⚠️ Stop all prerendering to avoid huge builds
+  prerender: {
+    enabled: false
+  },
+
   image: {
     service: {
       entrypoint: "astro/assets/services/noop",
